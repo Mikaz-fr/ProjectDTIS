@@ -1,0 +1,14 @@
+# //  ModelSim SE 10.1a Feb 21 2012 Linux 2.6.18-308.20.1.el5
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project DTIS_project
+# ** Error: (vish-19) Failed to access library './work' at "./work".
+# No such file or directory. (errno = ENOENT)
+# Break key hit 
+# Break key hit 

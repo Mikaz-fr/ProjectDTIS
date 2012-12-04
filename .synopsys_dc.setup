@@ -1,0 +1,66 @@
+# $Id$
+#
+#  .synospys_dc.setup for AMS 0.35um (C35) design kit
+#
+#  TCL syntax
+#
+
+#  include site-wide definitions
+#
+source /softs/synopsys/site/setup/synopsys_dc.setup_site_tcl
+
+#  variable definitions
+#
+set SYNOPSYS [getenv SYNOPSYS]
+set AMS_DIR "/dkits/ams/v3.70"
+
+
+#  search_path
+#
+set     search_path { "." }
+lappend search_path $AMS_DIR/synopsys/c35_3.3V
+lappend search_path $SYNOPSYS/libraries/syn
+lappend search_path $SYNOPSYS/dw/sim_ver
+
+#  symbol library
+#
+set     symbol_library { }
+lappend symbol_library c35_CORELIB.sdb
+lappend symbol_library c35_IOLIB_4M.sdb
+#lappend symbol_library c35_IOLIBV5_4M.sdb
+
+#  target library
+#
+set     target_library { }
+lappend target_library c35_CORELIB.db
+lappend target_library c35_IOLIB_4M.db
+#lappend target_library c35_IOLIBV5_4M.db
+
+#  synthetic library
+#
+set synthetic_library { dw_foundation.sldb }
+
+#  link library
+#
+set link_library [concat { "*" } $target_library $synthetic_library ]
+
+#  design library
+#
+define_design_lib WORK -path ./WORK
+
+#  various variables
+#
+set verilogout_equation "false"
+set verilogout_no_tri "true"
+set write_name_nets_same_as_ports "true"
+set verilogout_single_bit "false"
+set hdlout_internal_busses "true"
+set bus_inference_style {%s[%d]}
+set sdfout_no_edge "true"
+
+#  VHDL
+#
+lappend vhdlout_use_packages "C35_CORELIB.vcomponents"
+set hdlin_enable_presto_for_vhdl "true"
+
+puts "Please use: set_fix_multiple_port_nets -all"
