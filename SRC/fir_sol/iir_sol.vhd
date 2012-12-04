@@ -37,15 +37,8 @@ architecture Structural of iir_sol is
 	signal reg_sig : array32_t(0 to NIN-1);
 
 begin
-
-  process (Reset)
-    begin
-       if Reset = '1' then
-         Output <= (others => '0');
-       else
-	        Output <= reg_sig(NIN-1); --connect the output
-	     end if;
-	end process;
+	
+	Output <= (others => '0') when Reset = '1' else reg_sig(NIN-1); --connect the output
 
 	regi1: for i in 0 to NIN-2 generate		--generate registers and connect them together
 		regi2: reg port map(Reset,Clk,'1',reg_sig(i+1),reg_sig(i));	

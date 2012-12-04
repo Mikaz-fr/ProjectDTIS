@@ -28,9 +28,9 @@ architecture Structural of iir_sol is
 
 	component comb_part
 	port(
-		signal comb_a_in : array32_t(0 to NIN-1);
-		signal comb_b_in : array32_t(0 to NIN-2);
-		signal comb_out : STD_LOGIC_VECTOR (NBITS-1 downto 0)
+		signal comb_a_in : in array32_t(0 to NIN-1);
+		signal comb_b_in : in array32_t(0 to NIN-2);
+		signal comb_out : out STD_LOGIC_VECTOR (NBITS-1 downto 0)
 	   	);
 	end component;
 
