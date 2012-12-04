@@ -42,8 +42,11 @@ PACKAGE array_t IS
 		(3,8,6,0,7),
 		(3,10,9,2,10)
 		);
-	constant adder_index: array(0 to NLEVEL, 0 to 1) := (
-	
-	
-	);
+	constant a_adder_index: array_int_t(1 to NLEVEL-2) := (
+	   12, 6, 3, 1, 1
+	   );		
+
+	constant b_adder_index: array_int_t(1 to NLEVEL-2) := (
+	   11, 6, 3, 1, 1
+	   );
 END array_t;

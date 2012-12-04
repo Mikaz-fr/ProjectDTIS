@@ -7,8 +7,1269 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Loading project DTIS_project
-# ** Error: (vish-19) Failed to access library './work' at "./work".
-# No such file or directory. (errno = ENOENT)
-# Break key hit 
-# Break key hit 
+# Project file /home/edatp59/ProjectDTIS/DTIS_project.mpf was not found.
+# Unable to open project.
+# Loading project DTISProject
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.reg.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): (vcom-1195) Cannot find expanded name "work.reg".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 5 failed with 5 errors. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): Unknown expanded name.
+# -- Loading entity reg
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# ** Error: (vcom-11) Could not find work.array_t.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 5 failed with 6 errors. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(46): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(50): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): near "port": syntax error
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): near "port": syntax error
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): IF generate statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): (vcom-1136) Unknown identifier "a_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): (vcom-1136) Unknown identifier "a_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): (vcom-1136) Unknown identifier "a_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(61): near "end": expecting ';'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1136) Unknown identifier "b_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): (vcom-1136) Unknown identifier "b_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): (vcom-1136) Unknown identifier "b_adder_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): near "Structural": expecting GENERATE
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(61): near "end": expecting ';'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): near "Structural": expecting GENERATE
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(77): Cannot drive signal 'comb_out' of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(77): Cannot drive signal 'comb_out' of mode IN.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Loading entity reg
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
+# 
+# 
+# Compile of tb_iir_sol.vhd was successful.
+# Compile of iir_sol_wrapper.vhd was successful.
+# Compile of comb_part.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of array_t.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of iir_sol.vhd failed.
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Loading entity reg
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(22): near "Reset": expecting ':'
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(38): near "signal": expecting ';'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(42): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(45): (vcom-1136) Unknown identifier "reg_sig".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(48): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(42): Illegal concurrent statement.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(48): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(49): near ";": expecting PROCESS
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Component instantiation statement must have a label.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 1 failed with 1 error. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): near "0": expecting ']'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(57): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): (vcom-1136) Unknown identifier "comb_b_in".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): (vcom-1450) Actual (slice name) for formal "comb_b_in" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(57): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 0 failed with no errors. 
