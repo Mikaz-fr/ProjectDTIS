@@ -24,8 +24,8 @@ PACKAGE array_t IS
 	constant NBITS: natural := 32;	-- input size
 	constant A_WIDTH: natural := 24;
 	constant B_WIDTH: natural := 23;
-	constant NLEVEL : natural := 7; 
-	TYPE net_mat is array (natural range <>) of array32_t(0 to A_WIDTH);	--matrix of wire, each entry has maximum 3 entries and there is NIN entries
+	constant NLEVEL : natural := 6; 
+	TYPE net_mat is array (natural range <>) of array32_t(0 to A_WIDTH-1);	--matrix of wire, each entry has maximum 3 entries and there is NIN entries
 	TYPE vect3 is array (0 to 4) of natural;	--number of element, then shifts numbers
 	TYPE matrix_vect is array (natural range <>) of vect3;
 	constant a_shift_arr: matrix_vect(0 to (NIN/2)-1) := (
@@ -42,11 +42,11 @@ PACKAGE array_t IS
 		(3,8,6,0,7),
 		(3,10,9,2,10)
 		);
-	constant a_adder_index: array_int_t(1 to NLEVEL-2) := (
+	constant a_adder_index: array_int_t(0 to NLEVEL-2) := (
 	   12, 6, 3, 1, 1
 	   );		
 
-	constant b_adder_index: array_int_t(1 to NLEVEL-2) := (
+	constant b_adder_index: array_int_t(0 to NLEVEL-2) := (
 	   11, 6, 3, 1, 1
 	   );
 END array_t;

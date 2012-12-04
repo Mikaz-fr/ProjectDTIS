@@ -8,6 +8,7 @@ vcom -reportprogress 300 -work work ../components/adder.vhd
 vcom -reportprogress 300 -work work ../components/reg.vhd
 
 vcom -reportprogress 300 -work work ./iir_sol.vhd
+vcom -reportprogress 300 -work work ./comb_part.vhd
 vcom -reportprogress 300 -work work ./iir_sol_wrapper.vhd
 vcom -reportprogress 300 -work work ./tb_iir_sol.vhd
 

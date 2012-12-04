@@ -7,1175 +7,7 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Project file /home/edatp59/ProjectDTIS/DTIS_project.mpf was not found.
-# Unable to open project.
 # Loading project DTISProject
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): Unknown expanded name.
-# ** Error: (vcom-11) Could not find work.reg.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): (vcom-1195) Cannot find expanded name "work.reg".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity reg
-# -- Compiling architecture Behavioral of reg
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity mul32_32
-# -- Compiling architecture Behavioral of mul32_32
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity adder
-# -- Compiling architecture Behavioral of adder
-# 
-# 
-# 8 compiles, 5 failed with 5 errors. 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(7): Unknown expanded name.
-# -- Loading entity reg
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# ** Error: (vcom-11) Could not find work.array_t.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): (vcom-1195) Cannot find expanded name "work.array_t".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(7): Unknown expanded name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(9): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity reg
-# -- Compiling architecture Behavioral of reg
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity mul32_32
-# -- Compiling architecture Behavioral of mul32_32
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity adder
-# -- Compiling architecture Behavioral of adder
-# 
-# 
-# 8 compiles, 5 failed with 6 errors. 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(45): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(46): near "array": expecting STRING or IDENTIFIER or << or '('
-# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(50): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): near "port": syntax error
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): near "port": syntax error
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): near "=": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(47): IF generate statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(57): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): No feasible entries for infix operator "sll".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(59): Bad right hand side (infix expression) in signal assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in left operand of infix expression "-".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(65): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1141) Identifier "addder" does not identify a component declaration.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Type error resolving infix expression "mod" as type std.STANDARD.BOOLEAN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(68): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(69): Type error resolving infix expression "/" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): (vcom-1136) Unknown identifier "b_ind_div2".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(71): Bad right hand side (infix expression) in variable assignment.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): (vcom-1136) Unknown identifier "a_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(44): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(45): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): (vcom-1136) Unknown identifier "a_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): (vcom-1136) Unknown identifier "a_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(48): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(61): near "end": expecting ';'
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1136) Unknown identifier "b_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Bad expression in right bound of range expression.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): Cannot resolve expression type.
-# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(66): (vcom-1147) Range in FOR GENERATE must be static.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): No feasible entries for infix operator "*".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Bad expression in left operand of infix expression "+".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): (vcom-1136) Unknown identifier "b_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): (vcom-1136) Unknown identifier "b_adder_index".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(70): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): near "Structural": expecting GENERATE
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(61): near "end": expecting ';'
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): near "Structural": expecting GENERATE
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Cannot assign to object "comb_out" of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(76): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(77): Cannot drive signal 'comb_out' of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(77): Cannot drive signal 'comb_out' of mode IN.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Loading entity reg
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
-# 
-# 
-# Compile of tb_iir_sol.vhd was successful.
-# Compile of iir_sol_wrapper.vhd was successful.
-# Compile of comb_part.vhd was successful.
-# Compile of reg.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of array_t.vhd was successful.
-# Compile of adder.vhd was successful.
-# Compile of iir_sol.vhd failed.
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity mul32_32
-# -- Compiling architecture Behavioral of mul32_32
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Loading entity reg
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(8): 'reg' is not a library or a package.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(10): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity reg
-# -- Compiling architecture Behavioral of reg
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(22): near "Reset": expecting ':'
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(38): near "signal": expecting ';'
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(42): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(45): (vcom-1136) Unknown identifier "reg_sig".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(48): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(42): Illegal concurrent statement.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(48): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(49): near ";": expecting PROCESS
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(67): Component instantiation statement must have a label.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity tb_iir_sol
-# -- Compiling architecture testbench of tb_iir_sol
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol_wrapper
-# -- Compiling architecture Structural of iir_sol_wrapper
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package array_t
-# -- Compiling entity comb_part
-# -- Compiling architecture Structural of comb_part
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity reg
-# -- Compiling architecture Behavioral of reg
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity mul32_32
-# -- Compiling architecture Behavioral of mul32_32
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling package array_t
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity adder
-# -- Compiling architecture Behavioral of adder
-# 
-# 
-# 8 compiles, 1 failed with 1 error. 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(51): near "register": syntax error
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): near "0": expecting ']'
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(57): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): (vcom-1136) Unknown identifier "comb_b_in".
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(55): (vcom-1450) Actual (slice name) for formal "comb_b_in" is not a static signal name.
-# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd(57): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Loading package array_t
-# -- Compiling entity iir_sol
-# -- Compiling architecture Structural of iir_sol
-# 
-# 
 # vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
 # Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
 # -- Loading package STANDARD
@@ -1273,3 +105,1282 @@
 # 
 # 
 # 8 compiles, 0 failed with no errors. 
+ls
+# DTISProject.cr.mti
+# DTISProject.mpf
+# LIB
+# OUT
+# SCRIPTS
+# SRC
+# transcript
+# work
+do SRC/fir_sol/vsim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# ** Error: (vcom-7) Failed to open design unit file "../components/array_t.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /softs/mentor/msim/10.1a/linux/vcom failed.
+# Error in macro ./SRC/fir_sol/vsim.do line 5
+# /softs/mentor/msim/10.1a/linux/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work ../components/array_t.vhd"
+do SRC/fir_sol/vsim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# ** Error: (vcom-7) Failed to open design unit file "../components/array_t.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: /softs/mentor/msim/10.1a/linux/vcom failed.
+# Error in macro ./SRC/fir_sol/vsim.do line 5
+# /softs/mentor/msim/10.1a/linux/vcom failed.
+#     while executing
+# "vcom -reportprogress 300 -work work ../components/array_t.vhd"
+ls
+# DTISProject.cr.mti
+# DTISProject.mpf
+# LIB
+# OUT
+# SCRIPTS
+# SRC
+# transcript
+# work
+cd SRC/fir_sol
+# reading /softs/mentor/msim/10.1a/linux/../modelsim.ini
+do vsim.do
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# vsim -novopt work.tb_iir_sol 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.tb_iir_sol(testbench)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.array_t
+# Loading work.array_t
+# Loading work.tb_iir_sol(testbench)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.iir_sol_wrapper(structural)
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/SRC/fir_sol/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(0)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(1)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(2)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(3)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(4)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(5)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(6)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(7)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/regi1(8)/regi2 File: ./iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "comb_out".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb File: ./iir_sol.vhd Line: 55
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(1)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(2)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(3)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(4)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(6)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(7)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(8)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(9)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(10)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(11)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(3)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(4)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(5)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(1)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(2)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(5)/a_4(0)/a_add File: ./comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(0)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(1)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(2)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(3)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(6)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(7)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(8)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(9)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(10)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(3)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(4)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(5)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(1)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(2)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(5)/b_4(0)/b_add File: ./comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1 File: ./comb_part.vhd Line: 76
+# Fatal error at ./comb_part.vhd line 76
+#  while elaborating region: /tb_iir_sol/uut/U1/comb
+# Fatal error at ./comb_part.vhd line 76
+#  while elaborating region: /tb_iir_sol/uut/U1
+# Fatal error at ./comb_part.vhd line 76
+#  while elaborating region: /tb_iir_sol/uut
+# Fatal error at ./comb_part.vhd line 76
+#  while elaborating region: /tb_iir_sol
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# Loading project DTISProject
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol_wrapper(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/edatp59/ProjectDTIS/work.array_t
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(0)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(1)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(2)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(3)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(4)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(5)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(6)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(7)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(8)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "comb_out".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 55
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(6)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(7)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(8)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(9)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(10)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(11)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(4)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(5)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(6)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(7)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(8)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(9)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(10)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(4)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(5)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/out_1 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 76
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1/comb
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Loading work.iir_sol(structural)
+# Loading work.comb_part(structural)
+# Loading work.adder(behavioral)
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(0)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(1)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(2)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(3)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(4)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(5)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(6)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(7)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "Dout".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/regi1(8)/regi2 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 52
+# ** Failure: (vsim-3808) Incompatible modes for port "comb_out".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 55
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(6)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(7)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(8)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(9)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(10)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(11)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(4)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(5)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(6)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(7)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(8)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(9)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(10)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(4)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(5)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/out_1 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 76
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1/comb
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Loading work.comb_part(structural)
+# Loading work.adder(behavioral)
+# ** Failure: (vsim-3808) Incompatible modes for port "comb_out".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb File: /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd Line: 54
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(6)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(7)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(8)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(9)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(10)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(11)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(4)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(5)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(6)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(7)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(8)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(9)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(10)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(4)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(5)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/out_1 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 76
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1/comb
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 0 failed with no errors. 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol_wrapper(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/edatp59/ProjectDTIS/work.array_t
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(6)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(7)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(8)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(9)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(10)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(1)/a_4(11)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(3)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(4)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(2)/a_4(5)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(1)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(3)/a_4(2)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(4)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/a_3(5)/a_4(0)/a_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 45
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(6)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(7)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(8)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(9)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(1)/b_4(10)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(3)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(4)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(2)/b_4(5)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(1)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(3)/b_4(2)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(4)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/b_3(5)/b_4(0)/b_add File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 67
+# ** Failure: (vsim-3808) Incompatible modes for port "O".
+#    Time: 0 ns  Iteration: 0  Instance: /iir_sol_wrapper/U1/comb/out_1 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd Line: 76
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1/comb
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper/U1
+# Fatal error at /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd line 76
+#  while elaborating region: /iir_sol_wrapper
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 0 failed with no errors. 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol_wrapper(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/edatp59/ProjectDTIS/work.array_t
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 0 ns  Iteration: 0  Process: /iir_sol_wrapper/U1/comb/b_1(0)/b_2(0)/b_6/line__59 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 0 failed with no errors. 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol_wrapper(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/edatp59/ProjectDTIS/work.array_t
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# ** Fatal: (vsim-3421) Value 9 is out of range 0 to 8.
+#    Time: 0 ns  Iteration: 0  Process: /iir_sol_wrapper/U1/comb/b_1(0)/b_2(0)/b_6/line__59 File: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./vsim.do PAUSED at line 16
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 0 failed with no errors. 
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural)
+# vsim -do iir_sol_wrapper_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_wrapper_rtl.wlf -novopt work.iir_sol_wrapper(structural) 
+# Loading std.standard
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol_wrapper(structural)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/edatp59/ProjectDTIS/work.array_t
+# Loading ieee.numeric_std(body)
+# Loading work.array_t
+# Loading work.iir_sol_wrapper(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.reg(behavioral)
+# Loading work.reg(behavioral)
+# Refreshing /home/edatp59/ProjectDTIS/work.iir_sol(structural)
+# Loading work.iir_sol(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.comb_part(structural)
+# Loading work.comb_part(structural)
+# Refreshing /home/edatp59/ProjectDTIS/work.adder(behavioral)
+# Loading work.adder(behavioral)
+# iir_sol_wrapper_rtl.do 
+# invalid command name "iir_sol_wrapper_rtl.do"
+ls
+# DTISProject.cr.mti
+# DTISProject.mpf
+# LIB
+# OUT
+# SCRIPTS
+# SRC
+# transcript
+# work
+add wave -position insertpoint  \
+sim:/iir_sol_wrapper/Reset \
+sim:/iir_sol_wrapper/Clk \
+sim:/iir_sol_wrapper/Input \
+sim:/iir_sol_wrapper/Output \
+sim:/iir_sol_wrapper/del \
+sim:/iir_sol_wrapper/outs
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/edatp59/ProjectDTIS/iir_sol_wrapper_rtl.do
+quit -sim
+run
+# No Design Loaded!

@@ -18,20 +18,19 @@ end iir_sol;
 
 architecture Structural of iir_sol is
 	   
-	component reg
-    port ( signal Reset : STD_LOGIC;
-           signal Clk : STD_LOGIC;
-           signal Load : STD_LOGIC;
-           signal Din : STD_LOGIC_VECTOR (NBITS-1 downto 0);
-           signal Dout : STD_LOGIC_VECTOR (NBITS-1 downto 0)
-         );
+	component reg 
+    Port ( Reset : in  STD_LOGIC;
+           Clk : in  STD_LOGIC;
+           Load : in  STD_LOGIC;
+           Din : in  STD_LOGIC_VECTOR (31 downto 0);
+           Dout : out  STD_LOGIC_VECTOR (31 downto 0));
 	end component;
 
 	component comb_part
 	port(
-		signal comb_a_in : array32_t(0 to NIN-1);
-		signal comb_b_in : array32_t(0 to NIN-2);
-		signal comb_out : STD_LOGIC_VECTOR (NBITS-1 downto 0)
+		signal comb_a_in : in array32_t(0 to NIN-1);
+		signal comb_b_in : in array32_t(0 to NIN-2);
+		signal comb_out : out STD_LOGIC_VECTOR (NBITS-1 downto 0)
 	   	);
 	end component;
 
