@@ -28,6 +28,8 @@ architecture Structural of iir_sol is
 
 	component comb_part
 	port(
+		signal Reset : in  STD_LOGIC;
+        signal Clk : in  STD_LOGIC;
 		signal comb_a_in : in array32_t(0 to NIN-1);
 		signal comb_b_in : in array32_t(0 to NIN-2);
 		signal comb_out : out STD_LOGIC_VECTOR (NBITS-1 downto 0)
@@ -44,9 +46,7 @@ begin
 		regi2: reg port map(Reset,Clk,'1',reg_sig(i+1),reg_sig(i));	
 	end generate;
 
-	comb: comb_part port map(Input,reg_sig(0 to NIN-2),reg_sig(NIN-1));
-
-test
+	comb: comb_part port map(Reset, Clk, Input,reg_sig(0 to NIN-2),reg_sig(NIN-1));
 
 end Structural;
 

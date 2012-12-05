@@ -8,6 +8,8 @@ use work.array_t.all;
 
 entity comb_part is
 	port(
+		signal Reset : in  STD_LOGIC;
+        signal Clk : in  STD_LOGIC;
 		signal comb_a_in : in array32_t(0 to NIN-1);
 		signal comb_b_in : in array32_t(0 to NIN-2);
 		signal comb_out : out STD_LOGIC_VECTOR (NBITS-1 downto 0)
@@ -24,9 +26,17 @@ architecture Structural of comb_part is
         );
 	end component;
 
+	component reg 
+    Port ( Reset : in  STD_LOGIC;
+           Clk : in  STD_LOGIC;
+           Load : in  STD_LOGIC;
+           Din : in  STD_LOGIC_VECTOR (31 downto 0);
+           Dout : out  STD_LOGIC_VECTOR (31 downto 0));
+	end component;
+
 	signal a_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from a side
 	signal b_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from b side
-  signal temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
+  	signal temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
 
 begin
 
@@ -40,13 +50,16 @@ begin
 	end generate;
 
 
-	a_3: for k in 0 to NLEVEL-2 generate					--generate adders for each level	
-		a_4: for l in 0 to a_adder_index(k)-1 generate
+	a_3: for k in 0 to NLEVEL-2 generate	--generate adders or pipeline for each level	
+		a_4: for l in 0 to a_elem_index(k)(ELEM_ADDER)-1 generate
 			a_add: adder port map(a_web(k)(2*l),a_web(k)(2*l +1),a_web(k+1)(l));
 		end generate a_4;
-		a_5: if k = 3 generate		--when number of wire is odd, no need for adder
-			a_web(k+1)(a_adder_index(k)) <= a_web(k)(2*a_adder_index(k));
+		a_5: if k = 4 generate		--when number of wire is odd, no need for adder but one wire need to be transmited
+			a_web(k+1)(a_elem_index(k)(ELEM_ADDER)) <= a_web(k)(2*a_elem_index(k)(ELEM_ADDER));
 		end generate a_5;
+		ap_1: for m in 0 to a_elem_index(k)(ELEM_REG)-1 generate	--register for pipeline
+			a_reg: reg port map(Reset, Clk, '1', a_web(k)(m),a_web(k+1)(m));
+		end generate;
 	end generate a_3;
 
 
@@ -63,12 +76,15 @@ begin
 
 
 	b_3: for k in 0 to NLEVEL-2 generate					--generate adders for each level	
-		b_4: for l in 0 to b_adder_index(k)-1 generate
+		b_4: for l in 0 to b_elem_index(k)(ELEM_ADDER)-1 generate
 			 b_add: adder port map(b_web(k)(2*l),b_web(k)(2*l +1),b_web(k+1)(l));
 		end generate b_4;
-		b_5: if (k = 3 OR k = 0) generate		--when number of wire is odd, no need for adder
-			b_web(k+1)(b_adder_index(k)) <= b_web(k)(2*b_adder_index(k));
+		b_5: if (k = 4 OR k = 0) generate		--when number of wire is odd, no need for adder
+			b_web(k+1)(b_elem_index(k)(ELEM_ADDER)) <= b_web(k)(2*b_elem_index(k)(ELEM_ADDER));
 		end generate b_5;
+		bp_1: for m in 0 to b_elem_index(k)(ELEM_REG)-1 generate	--register for pipeline
+			b_reg: reg port map(Reset, Clk, '1', b_web(k)(m),b_web(k+1)(m));
+		end generate;
 	end generate b_3;
 
 

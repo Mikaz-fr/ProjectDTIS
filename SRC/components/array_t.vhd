@@ -24,10 +24,13 @@ PACKAGE array_t IS
 	constant NBITS: natural := 32;	-- input size
 	constant A_WIDTH: natural := 24;
 	constant B_WIDTH: natural := 23;
-	constant NLEVEL : natural := 6; 
+	constant NLEVEL : natural := 8; 	--Pipeline included
+	constant ELEM_ADDER : natrual := 0;
+	constant ELEM_REG : natrual := 1;
 	TYPE net_mat is array (natural range <>) of array32_t(0 to A_WIDTH-1);	--matrix of wire, each entry has maximum 3 entries and there is NIN entries
-	TYPE vect3 is array (0 to 4) of natural;	--number of element, then shifts numbers
-	TYPE matrix_vect is array (natural range <>) of vect3;
+	TYPE vect5 is array (0 to 4) of natural;	--number of element, then shifts numbers
+	TYPE vect2 is array (0 to 1) of natural
+	TYPE matrix_vect is array (natural range <>) of vect5;
 	constant a_shift_arr: matrix_vect(0 to (NIN/2)-1) := (
 		(2,1,0,0,0),
 		(3,4,3,0,2),
@@ -42,11 +45,23 @@ PACKAGE array_t IS
 		(3,8,6,0,7),
 		(3,10,9,2,10)
 		);
-	constant a_adder_index: array_int_t(0 to NLEVEL-2) := (
-	   12, 6, 3, 1, 1
+	constant a_elem_index: vect2(0 to NLEVEL-2) := (
+		(12, 0),
+		(6, 0),
+		(0, 6),
+		(3, 0),
+		(1, 0),
+		(0, 2),
+		(1, 0)
 	   );		
 
-	constant b_adder_index: array_int_t(0 to NLEVEL-2) := (
-	   11, 6, 3, 1, 1
+	constant b_elem_index: vect2(0 to NLEVEL-2) := (
+		(11, 0),
+		(6, 0),
+		(0, 6),
+		(3, 0),
+		(1, 0),
+		(0, 2),
+		(1, 0)
 	   );
 END array_t;
