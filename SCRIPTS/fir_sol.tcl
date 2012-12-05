@@ -11,11 +11,12 @@ analyze -f vhdl ./SRC/components/adder.vhd
 #analyze -f vhdl ./SRC/components/mul.vhd
 analyze -f vhdl ./SRC/components/reg.vhd
 analyze -f vhdl ./SRC/components/array_t.vhd
+analyze -f vhdl ./SRC/fir_sol/comb_part.vhd
 
 #*******************************************
 
-analyze -f vhdl ./SRC/iir_sol/iir_sol.vhd
-analyze -f vhdl ./SRC/iir_sol/iir_sol_wrapper.vhd
+analyze -f vhdl ./SRC/fir_sol/iir_sol.vhd
+analyze -f vhdl ./SRC/fir_sol/iir_sol_wrapper.vhd
 
 # elaborate the design 
 elaborate iir_sol_wrapper
