@@ -24,7 +24,7 @@ PACKAGE array_t IS
 	constant NBITS: natural := 32;	-- input size
 	constant A_WIDTH: natural := 24;
 	constant B_WIDTH: natural := 23;
-	constant NLEVEL : natural := 8; 	--Pipeline included
+	constant NLEVEL : natural := 7; 	--Pipeline included
 	constant ELEM_ADDER : natural := 0;
 	constant ELEM_REG : natural := 1;
 	TYPE net_mat is array (natural range <>) of array32_t(0 to A_WIDTH-1);	--matrix of wire, each entry has maximum 3 entries and there is NIN entries
@@ -49,20 +49,18 @@ PACKAGE array_t IS
 	constant a_elem_index: matrix_vect2(0 to NLEVEL-2) := (
 		(12, 0),
 		(6, 0),
-		(0, 6),		--Pipeline
 		(3, 0),
+		(0, 3),		--Pipeline
 		(1, 0),
-		(0, 2),		--Pipeline
 		(1, 0)
 	   );		
 
 	constant b_elem_index: matrix_vect2(0 to NLEVEL-2) := (
 		(11, 0),
 		(6, 0),
-		(0, 6),		--Pipeline
 		(3, 0),
+		(0, 3),		--Pipeline
 		(1, 0),
-		(0, 2),		--Pipeline
 		(1, 0)
 	   );
 END array_t;
