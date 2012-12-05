@@ -46,5 +46,7 @@ begin
 
 	comb: comb_part port map(Input,reg_sig(0 to NIN-2),reg_sig(NIN-1));
 
+test
+
 end Structural;
 
