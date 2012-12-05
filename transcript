@@ -21,419 +21,6 @@ vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_tb_rtl.wlf work.tb_iir_sol
 # Loading work.iir_sol_wrapper(structural)#1
 # Loading work.adder(behavioral)#1
 # do iir_sol_tb_rtl.do 
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/edatp59/ProjectDTIS/iir_sol_tb_rtl.do
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(10)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(10)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(9)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(9)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(8)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(8)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(7)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(7)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(6)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(6)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(11)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(11)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(10)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(10)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(9)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(9)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(8)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(8)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(7)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(7)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(6)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(6)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(6)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(6)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(7)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(7)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(8)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(8)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(9)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(9)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(10)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(10)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(6)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(6)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(7)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(7)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(8)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(8)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(9)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(9)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(10)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(10)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(11)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(11)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 1  Instance: /tb_iir_sol/uut/U1/comb/a_3(0)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(3)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/out_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/out_1
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(4)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(3)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 4  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 10  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 10  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-run
-run
-run
-run
-run
-add wave -position insertpoint  \
-sim:/tb_iir_sol/uut/U1/Input \
-sim:/tb_iir_sol/uut/U1/Output \
-sim:/tb_iir_sol/uut/U1/reg_sig
-vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_tb_rtl.wlf work.tb_iir_sol
-# vsim -do iir_sol_tb_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_tb_rtl.wlf work.tb_iir_sol 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading ieee.numeric_std(body)
-# Loading work.array_t
-# Loading work.tb_iir_sol(testbench)#1
-# Loading work.iir_sol_wrapper(structural)#1
-# Loading work.adder(behavioral)#1
-# do iir_sol_tb_rtl.do 
-add wave -position insertpoint  \
-sim:/tb_iir_sol/uut/U1/Input \
-sim:/tb_iir_sol/uut/U1/Output \
-sim:/tb_iir_sol/uut/U1/reg_sig
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/edatp59/ProjectDTIS/iir_sol_tb_rtl.do
 run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1
@@ -826,6 +413,484 @@ run
 run
 run
 run
+run
+run
+run
+run
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(95): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(28): (vcom-1136) Unknown identifier "natrual".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(28): Integer literal 0 is not of type (error).
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(29): (vcom-1136) Unknown identifier "natrual".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(29): Integer literal 1 is not of type (error).
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(33): near "TYPE": expecting ';'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(34): (vcom-1136) Unknown identifier "matrix_vect".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(41): (vcom-1136) Unknown identifier "matrix_vect".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): (vcom-1136) Unknown identifier "vect2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(58): (vcom-1136) Unknown identifier "vect2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(67): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 2 failed with 6 errors. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(95): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(33): near "TYPE": expecting ';'
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(34): (vcom-1136) Unknown identifier "matrix_vect".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(41): (vcom-1136) Unknown identifier "matrix_vect".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): (vcom-1136) Unknown identifier "vect2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(58): (vcom-1136) Unknown identifier "vect2".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(67): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 2 failed with 6 errors. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity tb_iir_sol
+# -- Compiling architecture testbench of tb_iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol_wrapper
+# -- Compiling architecture Structural of iir_sol_wrapper
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package array_t
+# -- Compiling entity iir_sol
+# -- Compiling architecture Structural of iir_sol
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(54): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(55): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(58): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1136) Unknown identifier "a_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(60): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(79): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): No feasible entries for infix operator "*".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Bad expression in left operand of infix expression "+".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(80): (vcom-1450) Actual (indexed name) for formal "B" is not a static signal name.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(83): Type error resolving infix expression "*" as type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1136) Unknown identifier "b_elem_index".
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Bad expression in right bound of range expression.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): Cannot resolve expression type.
+# ** Warning: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(85): (vcom-1147) Range in FOR GENERATE must be static.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd(95): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/reg.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity reg
+# -- Compiling architecture Behavioral of reg
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/mul.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mul32_32
+# -- Compiling architecture Behavioral of mul32_32
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): Index constraint cannot be applied to already-constrained type vect2.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(49): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(50): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(51): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(52): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(53): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(54): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(55): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(56): (vcom-1167) Index value 6 (of type std.STANDARD.INTEGER) is out of range 0 to 1.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(58): Index constraint cannot be applied to already-constrained type vect2.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(59): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(60): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(61): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(62): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(63): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(64): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(65): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(66): (vcom-1167) Index value 6 (of type std.STANDARD.INTEGER) is out of range 0 to 1.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(56): (vcom-1192) Array length is 2; aggregate length is 7.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(66): (vcom-1192) Array length is 2; aggregate length is 7.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(67): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/adder.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity adder
+# -- Compiling architecture Behavioral of adder
+# 
+# 
+# 8 compiles, 2 failed with 6 errors. 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(48): near "array": expecting STRING or IDENTIFIER or << or '('
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(58): Index constraint cannot be applied to already-constrained type vect2.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(59): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(60): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(61): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(62): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(63): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(64): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(65): Aggregate expression cannot be scalar type std.STANDARD.NATURAL.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(66): (vcom-1167) Index value 6 (of type std.STANDARD.INTEGER) is out of range 0 to 1.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(66): (vcom-1192) Array length is 2; aggregate length is 7.
+# ** Error: /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd(67): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package array_t
+# 
+# 
+# vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
+# Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package array_t
+# -- Compiling entity comb_part
+# -- Compiling architecture Structural of comb_part
+# 
+# 
 # vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/tb_iir_sol.vhd
 # Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
 # -- Loading package STANDARD
@@ -923,7 +988,9 @@ run
 # 
 # 
 # 8 compiles, 0 failed with no errors. 
-restart
+do iir_sol_tb_rtl.do
+vsim -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_tb_rtl.wlf work.tb_iir_sol
+# vsim -do iir_sol_tb_rtl.do -wlf /home/edatp59/ProjectDTIS/OUT/iir_sol_tb_rtl.wlf work.tb_iir_sol 
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -933,33 +1000,35 @@ restart
 # Loading ieee.numeric_std(body)
 # Loading work.array_t
 # Loading work.tb_iir_sol(testbench)#1
-# Loading work.iir_sol_wrapper(structural)#1
+# Loading work.iir_sol(structural)#1
 # Loading work.adder(behavioral)#1
+# Loading work.reg(behavioral)#1
+# do iir_sol_tb_rtl.do 
 run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/out_1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(6)/b_4(0)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(6)/b_4(0)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(2)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(2)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(1)/b_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(1)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
@@ -1029,25 +1098,25 @@ run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/b_3(0)/b_4(0)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(6)/a_4(0)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(6)/a_4(0)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(2)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(2)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(1)/a_add
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(1)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 0  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
@@ -1217,22 +1286,6 @@ run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(3)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(2)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(1)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(2)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(4)/b_add
@@ -1265,22 +1318,6 @@ run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(3)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(2)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(1)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(2)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(5)/a_add
@@ -1304,23 +1341,9 @@ run
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 2  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 3  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 4  Instance: /tb_iir_sol/uut/U1/comb/a_3(1)/a_4(0)/a_add
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ns  Iteration: 4  Instance: /tb_iir_sol/uut/U1/comb/b_3(1)/b_4(5)/b_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 10  Instance: /tb_iir_sol/uut/U1/comb/a_3(4)/a_4(0)/a_add
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ns  Iteration: 10  Instance: /tb_iir_sol/uut/U1/comb/b_3(4)/b_4(0)/b_add
-run
-run
 run
 run

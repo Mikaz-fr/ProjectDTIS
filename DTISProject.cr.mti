@@ -8,18 +8,6 @@ Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
 -- Compiling entity adder
 -- Compiling architecture Behavioral of adder
 
-} {} {}} /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd {1 {vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol.vhd
-Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Loading package array_t
--- Compiling entity iir_sol
--- Compiling architecture Structural of iir_sol
-
 } {} {}} /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd {1 {vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/iir_sol_wrapper.vhd
 Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
 -- Loading package STANDARD
@@ -63,27 +51,5 @@ Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
 -- Loading package array_t
 -- Compiling entity tb_iir_sol
 -- Compiling architecture testbench of tb_iir_sol
-
-} {} {}} /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd {1 {vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/components/array_t.vhd
-Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling package array_t
-
-} {} {}} /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd {1 {vcom -work work -2002 -explicit -vopt /home/edatp59/ProjectDTIS/SRC/fir_sol/comb_part.vhd
-Model Technology ModelSim SE vcom 10.1a Compiler 2012.02 Feb 21 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package array_t
--- Compiling entity comb_part
--- Compiling architecture Structural of comb_part
 
 } {} {}}

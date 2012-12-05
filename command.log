@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version F-2011.09-SP5 for linux -- Apr 20, 2012
-#@ # Date:   Wed Dec  5 09:45:04 2012
+#@ # Date:   Wed Dec  5 14:42:15 2012
 #@ # Run by: edatp59@ielsrv01.epfl.ch
 #@ 
 
@@ -4834,78 +4834,9 @@ source /home/edatp59/ProjectDTIS/.synopsys_dc.setup
 #@ puts "Please use: set_fix_multiple_port_nets -all"
 #@ # -- End source /home/edatp59/ProjectDTIS/.synopsys_dc.setup
 
-ls
-do SCRIPTS/fir_sol.tcl
-source SCRIPTS/fir_sol.tcl
-#@ # A clean start is always good. 
-#@ # do not use -all, that one will delete all std cell libraries
-#@ remove_design -designs 
-#@ 
-#@ # analyze the design
-#@ 
-#@ #*******************************************
-#@ #TODO: add extra source files here
-#@ 
-#@ analyze -f vhdl ./SRC/components/adder.vhd
-#@ #analyze -f vhdl ./SRC/components/mul.vhd
-#@ analyze -f vhdl ./SRC/components/reg.vhd
-#@ analyze -f vhdl ./SRC/components/array_t.vhd
-#@ 
-#@ #*******************************************
-#@ 
-#@ analyze -f vhdl ./SRC/iir_sol/iir_sol.vhd
-#@ analyze -f vhdl ./SRC/iir_sol/iir_sol_wrapper.vhd
-#@ 
-#@ # elaborate the design 
-#@ elaborate iir_sol_wrapper
-#@ 
-#@ # set delay constraints
-#@ create_clock "Clk" -name "global_clk" -period 4.3
-#@ 
-#@ # now let's just compile and see what comes up 
-#@ compile
-#@ 
-#@ 
-#@ # get some useful report about area and timing   
-#@ report_timing  
-#@ report_area
-#@ # -- End source SCRIPTS/fir_sol.tcl
-
-source SCRIPTS/fir_sol.tcl
-#@ # A clean start is always good. 
-#@ # do not use -all, that one will delete all std cell libraries
-#@ remove_design -designs 
-#@ 
-#@ # analyze the design
-#@ 
-#@ #*******************************************
-#@ #TODO: add extra source files here
-#@ 
-#@ analyze -f vhdl ./SRC/components/adder.vhd
-#@ #analyze -f vhdl ./SRC/components/mul.vhd
-#@ analyze -f vhdl ./SRC/components/reg.vhd
-#@ analyze -f vhdl ./SRC/components/array_t.vhd
-#@ 
-#@ #*******************************************
-#@ 
-#@ analyze -f vhdl ./SRC/fir_sol/iir_sol.vhd
-#@ analyze -f vhdl ./SRC/fir_sol/iir_sol_wrapper.vhd
-#@ 
-#@ # elaborate the design 
-#@ elaborate iir_sol_wrapper
-#@ 
-#@ # set delay constraints
-#@ create_clock "Clk" -name "global_clk" -period 4.3
-#@ 
-#@ # now let's just compile and see what comes up 
-#@ compile
-#@ 
-#@ 
-#@ # get some useful report about area and timing   
-#@ report_timing  
-#@ report_area
-#@ # -- End source SCRIPTS/fir_sol.tcl
-
+cd SCRIPTS/
+source cd
+cd ..
 source SCRIPTS/fir_sol.tcl
 #@ # A clean start is always good. 
 #@ # do not use -all, that one will delete all std cell libraries
