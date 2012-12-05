@@ -12,6 +12,7 @@ entity comb_part is
         signal Clk : in  STD_LOGIC;
 		signal comb_a_in : in array32_t(0 to NIN-1);
 		signal comb_b_in : in array32_t(0 to NIN-2);
+		signal comb_feedback : out STD_LOGIC_VECTOR (NBITS-1 downto 0);
 		signal comb_out : out STD_LOGIC_VECTOR (NBITS-1 downto 0)
 	);
 end comb_part;
@@ -36,7 +37,7 @@ architecture Structural of comb_part is
 
 	signal a_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from a side
 	signal b_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from b side
-  	signal temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
+  	signal delay1, delay2, temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
 
 begin
 
@@ -88,9 +89,16 @@ begin
 	end generate b_3;
 
 
-	--Output
-	out_1: adder port map(a_web(NLEVEL-1)(0),b_web(NLEVEL-1)(0),temp_out);
-  comb_out <= temp_out;
+	--Early feedback
+	feed_1: adder port map(a_web(NLEVEL-1)(0),b_web(NLEVEL-1)(0),comb_feedback);
+  	
+	--2 reg for delay
+	dreg1: reg port map(Reset, Clk, '1', a_web(NLEVEL-1)(0),delay1);
+	dreg2: reg port map(Reset, Clk, '1', delay1,delay2);
+
+  	--Output
+  	out_1: adder port map(delay2,b_web(NLEVEL-1)(0),temp_out);
+  	comb_out <= temp_out;
 
 end Structural;
 
