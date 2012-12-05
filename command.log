@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version F-2011.09-SP5 for linux -- Apr 20, 2012
-#@ # Date:   Wed Dec  5 14:42:15 2012
+#@ # Date:   Wed Dec  5 19:47:00 2012
 #@ # Run by: edatp59@ielsrv01.epfl.ch
 #@ 
 
@@ -4834,9 +4834,6 @@ source /home/edatp59/ProjectDTIS/.synopsys_dc.setup
 #@ puts "Please use: set_fix_multiple_port_nets -all"
 #@ # -- End source /home/edatp59/ProjectDTIS/.synopsys_dc.setup
 
-cd SCRIPTS/
-source cd
-cd ..
 source SCRIPTS/fir_sol.tcl
 #@ # A clean start is always good. 
 #@ # do not use -all, that one will delete all std cell libraries

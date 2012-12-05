@@ -47,7 +47,7 @@ begin
 		regi2: reg port map(Reset,Clk,'1',reg_sig(i+1),reg_sig(i));	
 	end generate;
 
-	comb: comb_part port map(Reset, Clk, Input,reg_sig(0 to NIN-3),reg_sig(NIN-2));
+	comb: comb_part port map(Reset, Clk, Input,reg_sig(0 to NIN-2),reg_sig(NIN-2));
 
 end Structural;
 
