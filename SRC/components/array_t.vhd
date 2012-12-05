@@ -49,20 +49,20 @@ PACKAGE array_t IS
 	constant a_elem_index: matrix_vect2(0 to NLEVEL-2) := (
 		(12, 0),
 		(6, 0),
-		(0, 6),
+		(0, 6),		--Pipeline
 		(3, 0),
 		(1, 0),
-		(0, 2),
+		(0, 2),		--Pipeline
 		(1, 0)
 	   );		
 
 	constant b_elem_index: matrix_vect2(0 to NLEVEL-2) := (
 		(11, 0),
 		(6, 0),
-		(0, 6),
+		(0, 6),		--Pipeline
 		(3, 0),
 		(1, 0),
-		(0, 2),
+		(0, 2),		--Pipeline
 		(1, 0)
 	   );
 END array_t;
