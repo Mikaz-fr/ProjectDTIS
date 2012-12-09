@@ -34,15 +34,15 @@ architecture Structural of comb_part is
            Dout : out  STD_LOGIC_VECTOR (31 downto 0));
 	end component;
 
-	signal a_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from a side
-	signal b_web : net_mat(0 to NLEVEL-1); --there is 8 different level of wire to pass from entries to single result from b side
+	signal a_web : net_mat(0 to NLEVEL_A-1); --there is 8 different level of wire to pass from entries to single result from a side
+	signal b_web : net_mat(0 to NLEVEL_B-1); --there is 8 different level of wire to pass from entries to single result from b side
   	signal temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
 
 begin
 
 	--Handle A side
 	--Handle shift stage
-	a_1: for i in 0 to (NIN/2)-1 generate				--generate for each entry (do symmetry)
+	a_1: for i in 0 to (NIN/2)-1 generate				--generate shifts for each entry (do symmetry)
 		a_2: for j in 0 to a_shift_arr(i)(0)-1 generate 	--generate for each shift of this entry
 			a_web(0)(a_shift_arr(i)(4) + j) <= std_logic_vector(unsigned(comb_a_in(i)) sll a_shift_arr(i)(j+1));	--a0 to a4
 			a_web(0)(A_WIDTH-1 - (a_shift_arr(i)(4) + j)) <= std_logic_vector(unsigned(comb_a_in(NIN-1-i)) sll a_shift_arr(i)(j+1));	--a9 to a5
@@ -50,7 +50,7 @@ begin
 	end generate;
 
 
-	a_3: for k in 0 to NLEVEL-2 generate	--generate adders or pipeline for each level	
+	a_3: for k in 0 to NLEVEL_A-2 generate	--generate adders or pipeline for each level	
 		a_4: for l in 0 to a_elem_index(k)(ELEM_ADDER)-1 generate
 			a_add: adder port map(a_web(k)(2*l),a_web(k)(2*l +1),a_web(k+1)(l));
 		end generate a_4;
@@ -74,12 +74,17 @@ begin
 		end generate;
 	end generate;
 
+	--Direct wiring for early feedback
+	bj_1: for i in 0 to N_DIRECT_JUMP-1 generate	
+		b_web(feedb_jump_index(i)(0))(feedb_jump_index(i)(1)) <= b_web(0)(B_WIDTH-i)	
+	end generate; 
 
-	b_3: for k in 0 to NLEVEL-2 generate					--generate adders for each level	
+	--generate adders for each level
+	b_3: for k in 0 to NLEVEL_B-2 generate						
 		b_4: for l in 0 to b_elem_index(k)(ELEM_ADDER)-1 generate
 			 b_add: adder port map(b_web(k)(2*l),b_web(k)(2*l +1),b_web(k+1)(l));
 		end generate b_4;
-		b_5: if (k = 4 OR k = 0) generate		--when number of wire is odd, no need for adder
+		b_5: if (k = 3 OR k = 7) generate		--when number of wire is odd, no need for adder
 			b_web(k+1)(b_elem_index(k)(ELEM_ADDER)) <= b_web(k)(2*b_elem_index(k)(ELEM_ADDER));
 		end generate b_5;
 		bp_1: for m in 0 to b_elem_index(k)(ELEM_REG)-1 generate	--register for pipeline
@@ -89,7 +94,7 @@ begin
 
 
 	--Output
-	out_1: adder port map(a_web(NLEVEL-1)(0),b_web(NLEVEL-1)(0),temp_out);
+	out_1: adder port map(a_web(NLEVEL_A-1)(0),b_web(NLEVEL_B-1)(0),temp_out);
   comb_out <= temp_out;
 
 end Structural;
