@@ -42,9 +42,7 @@ begin
 	
 	Output <= (others => '0') when Reset = '1' else reg_sig(NIN-1); --connect the output
 
-	reg_sig(NIN-2) <= reg_sig(NIN-1);	--first feedback got no delay
-
-	regi1: for i in NIN-NPIPE-1 to NIN-3 generate		--generate registers for early feedback
+	regi1: for i in NIN-NPIPE-1 to NIN-2 generate		--generate registers for early feedback
 		regi2: reg port map(Reset,Clk,'1',reg_sig(NIN-1),reg_sig(i));	
 	end generate;
 

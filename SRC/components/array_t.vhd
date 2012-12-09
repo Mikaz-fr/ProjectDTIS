@@ -67,17 +67,17 @@ PACKAGE array_t IS
 		(3, 0),
 		(2, 0),
 		(0, 2),		--Pipeline
-		(3, 0),
+		(2, 0),
 		(1, 0),
-		(0, 2),		--Pipeline
+		(0, 1),		--Pipeline
 		(1, 0)
 	   );
 
 	constant feedb_jump_index: matrix_vect2(0 to N_DIRECT_JUMP-1) := (
+		(10, 1),
+		(9, 1),
 		(6, 2),
 		(6, 3),
-		(6, 4),
-		(6, 5),
 		(3, 4),
 		(3, 5),
 		(3, 6)

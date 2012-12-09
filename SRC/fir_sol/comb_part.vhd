@@ -36,7 +36,7 @@ architecture Structural of comb_part is
 
 	signal a_web : net_mat(0 to NLEVEL_A-1); --there is 8 different level of wire to pass from entries to single result from a side
 	signal b_web : net_mat(0 to NLEVEL_B-1); --there is 8 different level of wire to pass from entries to single result from b side
-  	signal temp_out : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
+  	signal temp_out, temp_mix : STD_LOGIC_VECTOR (NBITS-1 downto 0); 
 
 begin
 
@@ -84,7 +84,7 @@ begin
 		b_4: for l in 0 to b_elem_index(k)(ELEM_ADDER)-1 generate
 			 b_add: adder port map(b_web(k)(2*l),b_web(k)(2*l +1),b_web(k+1)(l));
 		end generate b_4;
-		b_5: if (k = 3 OR k = 7) generate		--when number of wire is odd, no need for adder
+		b_5: if (k = 3) generate		--when number of wire is odd, no need for adder
 			b_web(k+1)(b_elem_index(k)(ELEM_ADDER)) <= b_web(k)(2*b_elem_index(k)(ELEM_ADDER));
 		end generate b_5;
 		bp_1: for m in 0 to b_elem_index(k)(ELEM_REG)-1 generate	--register for pipeline
@@ -93,9 +93,12 @@ begin
 	end generate b_3;
 
 
+	--Mix A and B for last stages to optimize since B is longer
+	mix_1: adder port map(a_web(NLEVEL_A-1)(0),b_web(NLEVEL_B-1)(1),temp_mix);
+
 	--Output
-	out_1: adder port map(a_web(NLEVEL_A-1)(0),b_web(NLEVEL_B-1)(0),temp_out);
-  comb_out <= temp_out;
+	out_1: adder port map(temp_mix,b_web(NLEVEL_B-1)(0),temp_out);
+  	comb_out <= temp_out;
 
 end Structural;
 
