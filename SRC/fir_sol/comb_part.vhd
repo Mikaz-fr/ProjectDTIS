@@ -54,7 +54,7 @@ begin
 		a_4: for l in 0 to a_elem_index(k)(ELEM_ADDER)-1 generate
 			a_add: adder port map(a_web(k)(2*l),a_web(k)(2*l +1),a_web(k+1)(l));
 		end generate a_4;
-		a_5: if k = 4 generate		--when number of wire is odd, no need for adder but one wire need to be transmited
+		a_5: if k = 5 generate		--when number of wire is odd, no need for adder but one wire need to be transmited
 			a_web(k+1)(a_elem_index(k)(ELEM_ADDER)) <= a_web(k)(2*a_elem_index(k)(ELEM_ADDER));
 		end generate a_5;
 		ap_1: for m in 0 to a_elem_index(k)(ELEM_REG)-1 generate	--register for pipeline
@@ -76,7 +76,7 @@ begin
 
 	--Direct wiring for early feedback
 	bj_1: for i in 0 to N_DIRECT_JUMP-1 generate	
-		b_web(feedb_jump_index(i)(0))(feedb_jump_index(i)(1)) <= b_web(0)(B_WIDTH-i)	
+		b_web(feedb_jump_index(i)(0))(feedb_jump_index(i)(1)) <= b_web(0)(B_WIDTH-1-i);
 	end generate; 
 
 	--generate adders for each level
