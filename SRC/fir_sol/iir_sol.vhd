@@ -42,11 +42,12 @@ begin
 	
 	Output <= (others => '0') when Reset = '1' else reg_sig(NIN-1); --connect the output
 
-	regi1: for i in NIN-NPIPE-1 to NIN-2 generate		--generate registers for early feedback
-		regi2: reg port map(Reset,Clk,'1',reg_sig(NIN-1),reg_sig(i));	
+	regi2: reg port map(Reset,Clk,'1',reg_sig(NIN-1),reg_sig(NIN-2));	--use one register for all NPIPE inputs
+
+	regi1: for i in NIN-NPIPE-1 to NIN-2 generate	
+		reg_sig(i-1) <= reg_sig(i);						--make transition
 	end generate;
 
-	reg_sig(NIN-NPIPE-2) <= reg_sig(NIN-NPIPE-1);	--make transition
 
 	regi3: for i in 0 to NIN-NPIPE-3 generate		--generate rest of registers and connect them together
 			regi4: reg port map(Reset,Clk,'1',reg_sig(i+1),reg_sig(i));	

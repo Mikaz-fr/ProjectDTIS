@@ -74,8 +74,8 @@ PACKAGE array_t IS
 	   );
 
 	constant feedb_jump_index: matrix_vect2(0 to N_DIRECT_JUMP-1) := (
-		(10, 1),
 		(9, 1),
+		(10, 1),
 		(6, 2),
 		(6, 3),
 		(3, 4),
