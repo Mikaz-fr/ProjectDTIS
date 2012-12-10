@@ -1,3 +1,8 @@
+--EPFL
+--DTIS PROJECT
+--Michael Roy
+--December 2012
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
@@ -39,22 +44,23 @@ architecture Structural of iir_sol is
 	signal reg_sig : array32_t(0 to NIN-1);
 
 begin
-	
-	--Output <= (others => '0') when Reset = '1' else reg_sig(NIN-1); --connect the output
-	Output <= reg_sig(NIN-1);
 
-	regi1: for i in NIN-NPIPE-1 to NIN-2 generate		--generate registers for early feedback	
-  	 regi2: reg port map(Reset,Clk,'1',reg_sig(NIN-1),reg_sig(i));	
+	--In this part we create register for the feedback loop and connect them to the combinational block
+
+	
+	Output <= reg_sig(NIN-1);	--Output is connect to feedback loop
+
+	regi1: for i in NIN-NPIPE-1 to NIN-2 generate		--generate registers for early feedback, NPIPE of them are in parallel to give early feedback (NPIPE register is faster than one distributed)	
+  		regi2: reg port map(Reset,Clk,'1',reg_sig(NIN-1),reg_sig(i));	
 	end generate;
 	
-	reg_sig(NIN-NPIPE-2) <= reg_sig(NIN-NPIPE-1);	--make transition
+	reg_sig(NIN-NPIPE-2) <= reg_sig(NIN-NPIPE-1);	--make transition between register in parallel and serially
 
-
-	regi3: for i in 0 to NIN-NPIPE-3 generate		--generate rest of registers and connect them together
+	regi3: for i in 0 to NIN-NPIPE-3 generate		--generate rest of registers and connect them together serially
 			regi4: reg port map(Reset,Clk,'1',reg_sig(i+1),reg_sig(i));	
 	end generate;
 
-	comb: comb_part port map(Reset, Clk, Input,reg_sig(0 to NIN-2),reg_sig(NIN-1));
+	comb: comb_part port map(Reset, Clk, Input,reg_sig(0 to NIN-2),reg_sig(NIN-1));	--instantiate combinational part
 
 end Structural;
 
