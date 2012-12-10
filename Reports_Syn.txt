@@ -1,0 +1,111 @@
+
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : iir_sol_wrapper
+Version: F-2011.09-SP5
+Date   : Mon Dec 10 01:43:07 2012
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: nom_pvt   Library: c35_CORELIB
+Wire Load Model Mode: enclosed
+
+  Startpoint: U1/comb/b_reg_2_3/Dout_reg[1]
+              (rising edge-triggered flip-flop clocked by global_clk)
+  Endpoint: U1/comb/b_reg_5_0/Dout_reg[19]
+            (rising edge-triggered flip-flop clocked by global_clk)
+  Path Group: global_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  iir_sol_wrapper    30k                   c35_CORELIB
+  comb_part          10k                   c35_CORELIB
+  adder_10_DW01_add_1
+                     10k                   c35_CORELIB
+  adder_8_DW01_add_1 10k                   c35_CORELIB
+  reg_3              10k                   c35_CORELIB
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock global_clk (rise edge)                            0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U1/comb/b_reg_2_3/Dout_reg[1]/C (DF3)                   0.00 #     0.00 r
+  U1/comb/b_reg_2_3/Dout_reg[1]/Q (DF3)                   0.63       0.63 r
+  U1/comb/b_reg_2_3/Dout[1] (reg_4)                       0.00       0.63 r
+  U1/comb/b_add_3_1/B[1] (adder_10)                       0.00       0.63 r
+  U1/comb/b_add_3_1/add_16/B[1] (adder_10_DW01_add_1)     0.00       0.63 r
+  U1/comb/b_add_3_1/add_16/U388/Q (NOR23)                 0.16       0.79 f
+  U1/comb/b_add_3_1/add_16/U336/Q (OAI212)                0.23       1.02 r
+  U1/comb/b_add_3_1/add_16/U321/Q (AOI212)                0.17       1.18 f
+  U1/comb/b_add_3_1/add_16/U438/Q (OAI212)                0.28       1.47 r
+  U1/comb/b_add_3_1/add_16/U436/Q (INV4)                  0.11       1.57 f
+  U1/comb/b_add_3_1/add_16/U366/Q (CLKIN10)               0.11       1.68 r
+  U1/comb/b_add_3_1/add_16/U368/Q (INV10)                 0.10       1.78 f
+  U1/comb/b_add_3_1/add_16/U281/Q (OAI212)                0.22       2.00 r
+  U1/comb/b_add_3_1/add_16/U266/Q (XNR22)                 0.31       2.32 r
+  U1/comb/b_add_3_1/add_16/SUM[9] (adder_10_DW01_add_1)
+                                                          0.00       2.32 r
+  U1/comb/b_add_3_1/O[9] (adder_10)                       0.00       2.32 r
+  U1/comb/b_add_4_0/B[9] (adder_8)                        0.00       2.32 r
+  U1/comb/b_add_4_0/add_16/B[9] (adder_8_DW01_add_1)      0.00       2.32 r
+  U1/comb/b_add_4_0/add_16/U401/Q (NOR23)                 0.19       2.50 f
+  U1/comb/b_add_4_0/add_16/U275/Q (OAI212)                0.23       2.73 r
+  U1/comb/b_add_4_0/add_16/U249/Q (AOI212)                0.16       2.89 f
+  U1/comb/b_add_4_0/add_16/U197/Q (OAI212)                0.21       3.10 r
+  U1/comb/b_add_4_0/add_16/U195/Q (AOI212)                0.17       3.27 f
+  U1/comb/b_add_4_0/add_16/U463/Q (BUF12)                 0.29       3.56 f
+  U1/comb/b_add_4_0/add_16/U165/Q (OAI212)                0.19       3.75 r
+  U1/comb/b_add_4_0/add_16/U592/Q (XNR21)                 0.35       4.10 f
+  U1/comb/b_add_4_0/add_16/SUM[19] (adder_8_DW01_add_1)
+                                                          0.00       4.10 f
+  U1/comb/b_add_4_0/O[19] (adder_8)                       0.00       4.10 f
+  U1/comb/b_reg_5_0/Din[19] (reg_3)                       0.00       4.10 f
+  U1/comb/b_reg_5_0/U27/Q (CLKIN3)                        0.11       4.21 r
+  U1/comb/b_reg_5_0/U60/Q (OAI222)                        0.09       4.30 f
+  U1/comb/b_reg_5_0/Dout_reg[19]/D (DF3)                  0.00       4.30 f
+  data arrival time                                                  4.30
+
+  clock global_clk (rise edge)                            4.30       4.30
+  clock network delay (ideal)                             0.00       4.30
+  U1/comb/b_reg_5_0/Dout_reg[19]/C (DF3)                  0.00       4.30 r
+  library setup time                                      0.00       4.30
+  data required time                                                 4.30
+  --------------------------------------------------------------------------
+  data required time                                                 4.30
+  data arrival time                                                 -4.30
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+
+****************************************
+Report : area
+Design : iir_sol_wrapper
+Version: F-2011.09-SP5
+Date   : Mon Dec 10 01:43:56 2012
+****************************************
+
+Library(s) Used:
+
+    c35_CORELIB (File: /dkits/ams/v3.70/synopsys/c35_3.3V/c35_CORELIB.db)
+
+Number of ports:                           66
+Number of nets:                           387
+Number of cells:                           12
+Number of combinational cells:              1
+Number of sequential cells:                 0
+Number of macros:                           0
+Number of buf/inv:                          0
+Number of references:                      12
+
+Combinational area:       1157010.406830
+Noncombinational area:    358176.000000
+Net Interconnect area:    345430.856533
+
+Total cell area:          1515186.406830
+Total area:               1860617.263363
